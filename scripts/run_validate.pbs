@@ -1,0 +1,21 @@
+#!/bin/bash
+#PBS -N pfnet_validate
+#PBS -q auto_free
+# one GPU per rank (ngpus equals NGPU); the job asks for 4 cores
+#PBS -l select=1:ncpus=4:ngpus=2:mem=16gb
+#PBS -l walltime=01:00:00
+#PBS -j oe
+cd "$PBS_O_WORKDIR"
+source scripts/cluster_env.sh
+mkdir -p out results
+
+bash tests/validate_local.sh > results/validate.txt 2>&1
+
+# the local suite stops at n = 4096, so this repeats the checks at n = 8192 on NGPU ranks
+bin/serial -n 8192 --out out/v/t8192.serial.edges --dump out/v/t8192.serial.bin >> results/validate.txt 2>&1
+for v in perk blocked; do
+    mpirun -np $NGPU bin/pfnet_mpi --fw $v -n 8192 --out out/v/t8192.$v.edges --dump out/v/t8192.$v.bin >> results/validate.txt 2>&1
+done
+python3 scripts/compare.py diff out/v/t8192.serial.bin out/v/t8192.perk.bin out/v/t8192.serial.edges out/v/t8192.perk.edges --tol 0 >> results/validate.txt 2>&1
+python3 scripts/compare.py diff out/v/t8192.serial.bin out/v/t8192.blocked.bin out/v/t8192.serial.edges out/v/t8192.blocked.edges --tol 1e-12 >> results/validate.txt 2>&1
+python3 scripts/compare.py props out/v/t8192.perk.bin >> results/validate.txt 2>&1

@@ -1,0 +1,25 @@
+#!/bin/bash
+#PBS -N pfnet_strong
+#PBS -q auto_free
+# one GPU per rank (ngpus equals NGPU); the job asks for 4 cores. Rank 0 keeps host copies of D0
+# and D and gathers every edge, several GB at n = 16384, so ask for more than the 16gb the
+# other jobs use
+#PBS -l select=1:ncpus=4:ngpus=2:mem=64gb
+#PBS -l walltime=02:00:00
+#PBS -j oe
+cd "$PBS_O_WORKDIR"
+source scripts/cluster_env.sh
+mkdir -p out results
+
+# largest n first: if the walltime runs out, the lost runs are the cheap ones and not the
+# ones the breakdown figure needs
+for n in 16384 8192 4096; do
+    for v in perk blocked; do
+        for p in 1 2 4 8; do
+            [ $p -le $NGPU ] || continue
+            for rep in 1 2 3; do
+                mpirun -np $p bin/pfnet_mpi --fw $v -n $n --csv results/strong.csv --out out/edges_${v}_$n.txt
+            done
+        done
+    done
+done

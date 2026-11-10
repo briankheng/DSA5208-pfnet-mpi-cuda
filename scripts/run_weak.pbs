@@ -1,0 +1,22 @@
+#!/bin/bash
+#PBS -N pfnet_weak
+#PBS -q auto_free
+# one GPU per rank (ngpus equals NGPU); the job asks for 4 cores. mem is 64gb for the same
+# reason as in run_strong.pbs
+#PBS -l select=1:ncpus=4:ngpus=2:mem=64gb
+#PBS -l walltime=01:00:00
+#PBS -j oe
+cd "$PBS_O_WORKDIR"
+source scripts/cluster_env.sh
+mkdir -p out results
+
+# n^3 / p is about constant, and each n is a multiple of 32
+for pair in "8192 1" "10336 2" "12992 4" "16384 8"; do
+    read n p <<< "$pair"
+    [ $p -le $NGPU ] || continue
+    for v in perk blocked; do
+        for rep in 1 2 3; do
+            mpirun -np $p bin/pfnet_mpi --fw $v -n $n --csv results/weak.csv --out out/edges_weak.txt
+        done
+    done
+done

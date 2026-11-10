@@ -1,0 +1,396 @@
+serial n=32 edges=2 t_total=0.008986
+PASS oracle n=32 max_diff=0 inf_ok=True edges=2 edges_ok=True
+PASS props n=32 max_diag=0 inf_sym=True max_asym=0 tri_bad=0/1024 above_graph=0
+serial n=64 edges=2 t_total=0.007994
+PASS oracle n=64 max_diff=0 inf_ok=True edges=2 edges_ok=True
+PASS props n=64 max_diag=0 inf_sym=True max_asym=0 tri_bad=0/4096 above_graph=0
+serial n=32 edges=3 t_total=0.006945
+PASS oracle n=32 max_diff=0 inf_ok=True edges=3 edges_ok=True
+PASS props n=32 max_diag=0 inf_sym=True max_asym=0 tri_bad=0/1024 above_graph=0
+serial n=32 edges=82 t_total=0.006499
+PASS oracle n=32 max_diff=0 inf_ok=True edges=82 edges_ok=True
+PASS props n=32 max_diag=0 inf_sym=True max_asym=0 tri_bad=0/1024 above_graph=0
+serial n=96 edges=253 t_total=0.009693
+PASS oracle n=96 max_diff=0 inf_ok=True edges=253 edges_ok=True
+PASS props n=96 max_diag=0 inf_sym=True max_asym=0 tri_bad=0/9216 above_graph=0
+serial n=160 edges=468 t_total=0.018665
+PASS oracle n=160 max_diff=0 inf_ok=True edges=468 edges_ok=True
+PASS props n=160 max_diag=0 inf_sym=True max_asym=0 tri_bad=0/10000 above_graph=0
+serial n=96 edges=245 t_total=0.009363
+PASS oracle n=96 max_diff=0 inf_ok=True edges=245 edges_ok=True
+PASS props n=96 max_diag=0 inf_sym=True max_asym=0 tri_bad=0/9216 above_graph=0
+serial n=160 edges=501 t_total=0.016151
+PASS oracle n=160 max_diff=0 inf_ok=True edges=501 edges_ok=True
+PASS props n=160 max_diag=0 inf_sym=True max_asym=0 tri_bad=0/10000 above_graph=0
+PASS oracle n=32 max_diff=0 inf_ok=True edges=2 edges_ok=True expect_ok=True
+PASS oracle n=32 max_diff=0 inf_ok=True edges=3 edges_ok=True expect_ok=True
+serial n=1024 edges=101951 t_total=3.287280
+serial n=2048 edges=449304 t_total=11.498817
+serial n=4096 edges=2212510 t_total=80.710323
+PASS props n=1024 max_diag=0 inf_sym=True max_asym=0 tri_bad=0/10000
+PASS serial
+serial n=32 edges=3 t_total=0.005597
+[GN-A40-097:1528723] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1528723] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1528727] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi none n=32 p=1 edges=3 t_fw=0.000003 t_total=0.008932
+PASS diff n=32 max_diff=0 tol=0 inf_ok=True edges_identical=True
+serial n=96 edges=3608 t_total=0.010705
+[GN-A40-097:1528866] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1528866] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1528870] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi none n=96 p=1 edges=3608 t_fw=0.000003 t_total=0.015679
+PASS diff n=96 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1529008] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1529008] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1529012] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1529013] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi none n=96 p=2 edges=3608 t_fw=0.000009 t_total=0.014930
+PASS diff n=96 max_diff=0 tol=0 inf_ok=True edges_identical=True
+serial n=160 edges=10189 t_total=0.013422
+[GN-A40-097:1529157] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1529157] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1529161] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi none n=160 p=1 edges=10189 t_fw=0.000003 t_total=0.018977
+PASS diff n=160 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1529299] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1529299] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1529304] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1529303] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi none n=160 p=2 edges=10189 t_fw=0.000005 t_total=0.020360
+PASS diff n=160 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1529446] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1529446] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1529453] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1529451] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1529452] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1529450] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi none n=160 p=4 edges=10189 t_fw=0.000009 t_total=0.013826
+PASS diff n=160 max_diff=0 tol=0 inf_ok=True edges_identical=True
+serial n=1024 edges=523776 t_total=1.509407
+PASS props n=1024 max_diag=0 inf_sym=True max_asym=0 tri_bad=0/10000 above_graph=0
+[GN-A40-097:1529731] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1529731] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1529735] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi none n=1024 p=1 edges=523776 t_fw=0.000622 t_total=0.946143
+PASS diff n=1024 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1529874] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1529874] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1529879] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1529878] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi none n=1024 p=2 edges=523776 t_fw=0.000758 t_total=0.774197
+PASS diff n=1024 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1530022] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1530022] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1530029] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1530028] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1530027] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1530026] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi none n=1024 p=4 edges=523776 t_fw=0.000467 t_total=0.717545
+PASS diff n=1024 max_diff=0 tol=0 inf_ok=True edges_identical=True
+PASS none
+[GN-A40-097:1530225] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1530225] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1530229] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=32 p=1 edges=2 t_fw=0.002807 t_total=0.011355
+PASS diff n=32 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1530367] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1530367] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1530371] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=64 p=1 edges=2 t_fw=0.003737 t_total=0.012186
+PASS diff n=64 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1530509] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1530509] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1530513] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1530514] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=64 p=2 edges=2 t_fw=0.004090 t_total=0.012775
+PASS diff n=64 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1530656] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1530656] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1530660] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=32 p=1 edges=3 t_fw=0.002905 t_total=0.012015
+PASS diff n=32 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1530798] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1530798] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1530802] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=32 p=1 edges=82 t_fw=0.002831 t_total=0.011738
+PASS diff n=32 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1530940] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1530940] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1530944] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=96 p=1 edges=253 t_fw=0.004658 t_total=0.013768
+PASS diff n=96 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1531082] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531082] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531087] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531088] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=96 p=2 edges=253 t_fw=0.005208 t_total=0.014142
+PASS diff n=96 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1531230] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531230] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531234] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=160 p=1 edges=468 t_fw=0.006792 t_total=0.018852
+PASS diff n=160 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1531372] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531372] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531377] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531376] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=160 p=2 edges=468 t_fw=0.007320 t_total=0.017427
+PASS diff n=160 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1531519] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531519] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531525] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531526] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531523] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531524] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=160 p=4 edges=468 t_fw=0.059264 t_total=0.070371
+PASS diff n=160 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1531677] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531677] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531681] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=96 p=1 edges=245 t_fw=0.004741 t_total=0.012166
+PASS diff n=96 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1531819] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531819] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531824] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531823] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=96 p=2 edges=245 t_fw=0.005207 t_total=0.013641
+PASS diff n=96 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1531967] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531967] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1531971] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=160 p=1 edges=501 t_fw=0.006666 t_total=0.019793
+PASS diff n=160 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1532109] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532109] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532114] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532113] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=160 p=2 edges=501 t_fw=0.007236 t_total=0.018842
+PASS diff n=160 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1532256] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532256] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532263] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532262] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532261] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532260] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=160 p=4 edges=501 t_fw=0.059753 t_total=0.071789
+PASS diff n=160 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1532413] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532413] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532417] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=1024 p=1 edges=101951 t_fw=0.051966 t_total=0.661777
+PASS diff n=1024 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1532556] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532556] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532561] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532560] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=1024 p=2 edges=101951 t_fw=0.046967 t_total=0.600549
+PASS diff n=1024 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1532703] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532703] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532708] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532709] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532710] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532711] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=1024 p=4 edges=101951 t_fw=0.393871 t_total=0.943497
+PASS diff n=1024 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1532861] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532861] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1532865] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=2048 p=1 edges=449304 t_fw=0.197290 t_total=1.192934
+PASS diff n=2048 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1533063] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533063] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533067] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533068] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=2048 p=2 edges=449304 t_fw=0.152452 t_total=0.959324
+PASS diff n=2048 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1533214] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533214] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533224] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533223] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533222] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533221] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=2048 p=4 edges=449304 t_fw=0.837871 t_total=1.652871
+PASS diff n=2048 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1533381] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533381] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533385] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=4096 p=1 edges=2212510 t_fw=1.042920 t_total=3.384127
+PASS diff n=4096 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1533536] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533536] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533540] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533541] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=4096 p=2 edges=2212510 t_fw=0.584496 t_total=2.097735
+PASS diff n=4096 max_diff=0 tol=0 inf_ok=True edges_identical=True
+[GN-A40-097:1533688] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533688] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533692] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533695] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533694] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533693] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=4096 p=4 edges=2212510 t_fw=1.316142 t_total=2.872456
+PASS diff n=4096 max_diff=0 tol=0 inf_ok=True edges_identical=True
+PASS props n=4096 max_diag=0 inf_sym=True max_asym=0 tri_bad=0/10000
+PASS perk
+[GN-A40-097:1533976] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533976] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1533980] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=32 p=1 edges=2 t_fw=0.001195 t_total=0.009126
+PASS diff n=32 max_diff=0 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1534118] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1534118] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1534122] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=64 p=1 edges=2 t_fw=0.001747 t_total=0.009695
+PASS diff n=64 max_diff=0 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1534260] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1534260] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1534264] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1534265] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=64 p=2 edges=2 t_fw=0.002119 t_total=0.009942
+PASS diff n=64 max_diff=0 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1534407] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1534407] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1534411] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=32 p=1 edges=3 t_fw=0.001520 t_total=0.009522
+PASS diff n=32 max_diff=0 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1534549] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1534549] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1534553] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=32 p=1 edges=82 t_fw=0.001538 t_total=0.008941
+PASS diff n=32 max_diff=0 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1534691] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1534691] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1534695] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=96 p=1 edges=253 t_fw=0.001866 t_total=0.009716
+PASS diff n=96 max_diff=0 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1534834] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1534834] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1534838] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1534839] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=96 p=2 edges=253 t_fw=0.002186 t_total=0.010381
+PASS diff n=96 max_diff=0 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1534981] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1534981] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1534985] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=160 p=1 edges=468 t_fw=0.002097 t_total=0.011083
+PASS diff n=160 max_diff=0 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1535123] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1535123] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1535128] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1535127] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=160 p=2 edges=468 t_fw=0.002157 t_total=0.011266
+PASS diff n=160 max_diff=0 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1535270] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1535270] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1535276] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1535274] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1535277] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1535275] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=160 p=4 edges=468 t_fw=0.003798 t_total=0.014135
+PASS diff n=160 max_diff=0 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1535427] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1535427] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1535431] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=96 p=1 edges=245 t_fw=0.001877 t_total=0.011498
+PASS diff n=96 max_diff=8.88e-16 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1535569] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1535569] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1535573] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1535574] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=96 p=2 edges=245 t_fw=0.002197 t_total=0.010382
+PASS diff n=96 max_diff=8.88e-16 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1535716] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1535716] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1535720] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=160 p=1 edges=501 t_fw=0.002095 t_total=0.010076
+PASS diff n=160 max_diff=4.44e-16 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1535858] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1535858] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1535863] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1535864] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=160 p=2 edges=501 t_fw=0.002454 t_total=0.010854
+PASS diff n=160 max_diff=4.44e-16 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1536007] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536007] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536013] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536011] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536012] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536014] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=160 p=4 edges=501 t_fw=0.003360 t_total=0.012481
+PASS diff n=160 max_diff=4.44e-16 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1536164] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536164] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536168] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=1024 p=1 edges=101951 t_fw=0.013949 t_total=0.348751
+PASS diff n=1024 max_diff=1.78e-15 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1536306] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536306] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536310] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536311] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=1024 p=2 edges=101951 t_fw=0.011721 t_total=0.497337
+PASS diff n=1024 max_diff=1.78e-15 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1536453] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536453] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536459] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536460] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536457] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536458] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=1024 p=4 edges=101951 t_fw=0.017674 t_total=0.484754
+PASS diff n=1024 max_diff=1.78e-15 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1536610] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536610] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536614] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=2048 p=1 edges=449304 t_fw=0.081483 t_total=0.759218
+PASS diff n=2048 max_diff=1.78e-15 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1536753] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536753] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536757] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536758] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=2048 p=2 edges=449304 t_fw=0.049168 t_total=0.642771
+PASS diff n=2048 max_diff=1.78e-15 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1536901] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536901] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536907] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536905] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536908] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1536906] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=2048 p=4 edges=449304 t_fw=0.065312 t_total=0.656979
+PASS diff n=2048 max_diff=1.78e-15 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1537060] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1537060] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1537064] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=4096 p=1 edges=2212510 t_fw=0.601810 t_total=2.439731
+PASS diff n=4096 max_diff=1.78e-15 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1537204] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1537204] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1537208] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1537209] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=4096 p=2 edges=2212510 t_fw=0.326585 t_total=2.041817
+PASS diff n=4096 max_diff=1.78e-15 tol=1e-12 inf_ok=True edges_identical=True
+[GN-A40-097:1537351] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1537351] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1537357] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1537358] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1537355] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1537356] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=4096 p=4 edges=2212510 t_fw=0.334137 t_total=2.205271
+PASS diff n=4096 max_diff=1.78e-15 tol=1e-12 inf_ok=True edges_identical=True
+PASS props n=4096 max_diag=0 inf_sym=True max_asym=0 tri_bad=0/10000
+PASS diff n=2048 max_diff=1.78e-15 tol=1e-12 inf_ok=True edges_identical=True
+PASS blocked
+serial n=8192 edges=9691205 t_total=615.585800
+[GN-A40-097:1538245] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1538245] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1538294] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1538292] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi perk n=8192 p=2 edges=9691205 t_fw=3.868312 t_total=11.059682
+[GN-A40-097:1538418] mca_base_component_repository_open: unable to open mca_plm_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1538418] mca_base_component_repository_open: unable to open mca_ras_tm: libpbs.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1538423] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+[GN-A40-097:1538422] mca_base_component_repository_open: unable to open mca_osc_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+pfnet_mpi blocked n=8192 p=2 edges=9691205 t_fw=2.422152 t_total=7.510852
+PASS diff n=8192 max_diff=0 tol=0 inf_ok=True edges_identical=True
+PASS diff n=8192 max_diff=1.78e-15 tol=1e-12 inf_ok=True edges_identical=True
+PASS props n=8192 max_diag=0 inf_sym=True max_asym=0 tri_bad=0/10000
